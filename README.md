@@ -8,7 +8,7 @@ for package information and category counts.
 
 ## Functions
 
-My package includes three unique functions:
+The package includes three unique functions:
 
 - `hello_gonzalez()` returns a short welcome message.
 - `package_metadata()` returns a summary of the package metadata.
@@ -16,7 +16,7 @@ My package includes three unique functions:
 
 ## Libraries
 
-My package imports:
+The package imports:
 
 - `dplyr`
 - `ggplot2`
@@ -24,22 +24,22 @@ My package imports:
 
 ## Metadata
 
-My `DESCRIPTION` file includes the package name, title, version, author,
+The `DESCRIPTION` file includes the package name, title, version, author,
 description, R dependency, imported libraries, license, encoding, GitHub URL,
 and bug report URL.
 
 ## License
 
-My package uses the CC0 license.
+The package uses the CC0 license.
 
 ## Classes And Methods
 
-My package does not use S3 or S4 classes. It uses regular exported R
+The package does not use S3 or S4 classes. It uses regular exported R
 functions.
 
 ## Installation
 
-After the package is posted on GitHub, it can be installed with:
+The package can be installed from GitHub with:
 
 ```r
 devtools::install_github("zaragz/Gonzalez")

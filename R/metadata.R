@@ -10,6 +10,14 @@ package_metadata <- function() {
     version = "0.0.0.9000",
     license = "CC0",
     classes = "No S3 or S4 classes are used",
-    imports = c("dplyr", "ggplot2", "rlang")
+    imports = c("dplyr", "ggplot2", "rlang"),
+    functions = c(
+      "hello_gonzalez",
+      "quick_summary",
+      "missing_report",
+      "numeric_summary",
+      "plot_category_counts",
+      "package_metadata"
+    )
   )
 }

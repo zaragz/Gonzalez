@@ -1,16 +1,20 @@
 # Gonzalez
 
-Introductory data summary tools for simple analysis and visualization in R.
+Simple data summary tools for students learning analysis and visualization in R.
 
-I created Gonzalez as an introductory data summary package for the LIS4370 final
-project. It shows basic R package structure while providing a few simple tools
-for package information and category counts.
+I created Gonzalez as a beginner-friendly data summary package for the LIS4370
+final project. It is designed for students who want quick ways to inspect small
+data sets, check missing values, summarize numeric columns, and visualize
+category counts.
 
 ## Functions
 
-The package includes three unique functions:
+The package includes six unique functions:
 
 - `hello_gonzalez()` returns a short welcome message.
+- `quick_summary()` gives a quick overview of a data frame.
+- `missing_report()` counts missing values in each column.
+- `numeric_summary()` summarizes numeric columns with common statistics.
 - `package_metadata()` returns a summary of the package metadata.
 - `plot_category_counts()` creates a simple bar chart for a categorical column.
 
@@ -51,6 +55,9 @@ devtools::install_github("zaragz/Gonzalez")
 library(Gonzalez)
 
 hello_gonzalez()
+quick_summary(iris)
+missing_report(airquality)
+numeric_summary(mtcars)
 package_metadata()
 plot_category_counts(mtcars, "cyl")
 plot_category_counts(iris, "Species")

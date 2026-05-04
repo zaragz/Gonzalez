@@ -1,12 +1,13 @@
 Package: Gonzalez
-Title: Introductory Data Summary Tools
+Title: Simple Data Summary Tools For Students
 Version: 0.0.0.9000
 Authors@R: person("Zara", "Gonzalez", email = "zaragonzalez@usf.edu", role = c("aut", "cre"))
 Author: Zara Gonzalez
 Maintainer: Zara Gonzalez <zaragonzalez@usf.edu>
-Description: I created Gonzalez as a simple introductory R package for LIS4370.
-    It includes basic package metadata, exported functions, documentation,
-    dependencies, and a GitHub-ready project layout.
+Description: I created Gonzalez as a beginner-friendly R package for quickly
+    inspecting small data sets in R. It includes simple tools for reviewing data
+    frame structure, checking missing values, summarizing numeric columns, and
+    visualizing category counts.
 License: CC0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

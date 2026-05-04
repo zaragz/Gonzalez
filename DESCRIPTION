@@ -1,0 +1,22 @@
+Package: Gonzalez
+Title: Introductory Data Summary Tools
+Version: 0.0.0.9000
+Authors@R: person("Zara", "Gonzalez", email = "zaragonzalez@usf.edu", role = c("aut", "cre"))
+Author: Zara Gonzalez
+Maintainer: Zara Gonzalez <zaragonzalez@usf.edu>
+Description: Gonzalez is a simple introductory R package created for LIS4370.
+    The package demonstrates the basic structure of an R package, including
+    package metadata, exported functions, documentation, dependencies, and a
+    GitHub-ready project layout.
+License: CC0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 3.1.2)
+Imports:
+    dplyr,
+    ggplot2,
+    rlang
+URL: https://github.com/zaragz/Gonzalez
+BugReports: https://github.com/zaragz/Gonzalez/issues
